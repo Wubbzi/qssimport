@@ -1,0 +1,30 @@
+QLineEdit {
+    color: #54fe89;
+    background: #373737;
+}
+
+QWidget{background:#272727;}
+
+QPushButton {
+    background: #2b492f;
+    color: #eeff8f;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+QPushButton::pressed {
+    background: #eeff8f;
+    color: #2b492f;
+}
+
+QPushButton#BottomButton {
+    background: #8181ff;
+    color: #e6cc00;
+}
+
+QPushButton#BottomButton::pressed {
+    background: #007cba;
+    color: #ff9300;
+}
+
+

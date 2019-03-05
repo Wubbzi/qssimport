@@ -1,0 +1,3 @@
+@import "lineEdit.qss";
+@import "Qwidget.qss";
+@import "QPushButton.qss";

@@ -3,8 +3,6 @@ from pathlib import Path
 
 class StyleSheet:
     def __init__(self, base_dir, import_def_file, main_stylesheet=None):
-        if not base_dir.endswith('/'):
-            base_dir += '/'
         self.base_dir = Path(base_dir)
         self.base_stylesheet = import_def_file
         self.main_stylesheet = main_stylesheet
