@@ -10,7 +10,7 @@ class StyleSheet:
         if not main_stylesheet:
             self.main_stylesheet = 'mainStyle.qss'
 
-        self.lines = []
+        self.__lines = []
         self.__extract_imports(self.base_stylesheet)
 
     def __extract_imports(self, file):
@@ -27,11 +27,11 @@ class StyleSheet:
     def __read_stylesheet(self, file):
         with open(file, 'r') as stylesheet:
             stylesheet = stylesheet.read()
-            self.lines.append(stylesheet)
+            self.__lines.append(stylesheet)
 
     def create_stylesheet(self):
         root = self.base_dir
         path = root / self.main_stylesheet
-        if self.lines:
+        if self.__lines:
             with open(path, 'w+') as file:
-                file.writelines(f"{item}\n" for item in self.lines)
+                file.writelines(f"{item}\n" for item in self.__lines)
