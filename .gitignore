@@ -1,0 +1,4 @@
+.idea/*
+dist/*
+qssimport.egg-info/*
+venv/*
