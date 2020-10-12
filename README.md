@@ -4,7 +4,7 @@ qssimport allows you to use multiple qt stylesheet files for a single project by
     
 
 ### Installation
-    sudo pip install qssimport
+    python3 setup.py install
 
 ### Usage
 
