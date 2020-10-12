@@ -16,14 +16,15 @@ if a name is not provided, the program defaults to mainStyle.qss
   
 ```
  from qssimport import stylesheet
- ...
- b = stylesheet.Stylesheet(base_dir='/path/to/stylesheets/',
+ 
+ widget = QWidget()
+ ss = stylesheet.Stylesheet(base_dir='/path/to/stylesheets/',
                             import_def_file='imports.qss',
                             main_stylesheet='myStyle.qss')
- b.create_stylesheet()
+ 
+ ss.style_widget(widget) #apply a stylesheet to widget
 
 
- ...	   
 ```
 
 ### Example 
