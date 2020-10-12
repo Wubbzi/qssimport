@@ -1,22 +1,12 @@
 QPushButton {
-    background: #2b492f;
-    color: #eeff8f;
+    background: #EFC958;
+    color: #344E5C;
     border-radius: 3px;
     padding: 2px;
 }
 
-QPushButton::pressed {
-    background: #eeff8f;
-    color: #2b492f;
-}
-
-QPushButton#BottomButton {
-    background: #8181ff;
-    color: #e6cc00;
-}
-
-QPushButton#BottomButton::pressed {
-    background: #007cba;
-    color: #ff9300;
+QPushButton:pressed {
+    background: #E17A47;
+    color: #EFEEEE;
 }
 

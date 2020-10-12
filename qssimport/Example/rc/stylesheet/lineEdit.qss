@@ -1,4 +1,4 @@
 QLineEdit {
-    color: #54fe89;
-    background: #373737;
+    color: #F1E6C1;
+    background: #EF3D59;
 }

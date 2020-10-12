@@ -22,9 +22,7 @@ if a name is not provided, the program defaults to mainStyle.qss
                             main_stylesheet='myStyle.qss')
  b.create_stylesheet()
 
- style_sheet = "path/to/myStyle.qss"
- with open(style_sheet, 'r') as style:
-     self.setStyleSheet(style.read())
+
  ...	   
 ```
 

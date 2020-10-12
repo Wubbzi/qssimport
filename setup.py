@@ -7,13 +7,11 @@ with open("README.md", "r") as fh:
 setup(
     name='qssimport',
     version=version.__version__,
-    author='Chris Souza',
-    author_email='chris.souza3425@gmail.com',
-    python_requires='>=2.7',
+    author='Inigo Montoya',
+    python_requires='>=3.4',
     description="Merge qss files by using @import",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/c385/qssimport",
     license='MIT',
     packages=['qssimport'],
     classifiers=[
